@@ -1,4 +1,4 @@
-# Android device tree for samsung SM-A166P (a16xm)
+# Android device tree for samsung SM-M166P (m16xm)
 
 # How-to compile it:
 
@@ -12,11 +12,11 @@
 ```
  - Clone TheNoobDevs-Staging twrp tree
 ```
-    git clone https://github.com/galaxy-a16/android_device_samsung_a16xm.git -b android-12.1 device/samsung/a16xm
+    git clone https://github.com/galaxy-m16/android_device_samsung_m16xm.git -b android-12.1 device/samsung/m16xm
 ```
  - Build
 ```
-    export ALLOW_MISSING_DEPENDENCIES=true; . build/envsetup.sh; lunch twrp_a16xm-eng; mka recoveryimage
+    export ALLOW_MISSING_DEPENDENCIES=true; . build/envsetup.sh; lunch twrp_m16xm-eng; mka recoveryimage
 ```
 ## Multidisabler
 once in twrp go to advanced, terminal and type "multidisabler" to stop restoration of stock recovery
